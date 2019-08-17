@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*js代码(www.jsdaima.com)是IT资源下载与IT技能学习平台。我们拒绝滥竽充数，只提供精品IT资源！*/
+
+*{margin: 0;padding: 0;font-family: "微软雅黑";font-weight: 300;}
+ul{list-style: none;}
+a{text-decoration: none;}
+.section{background:#F4F4F4;padding:80px 0}
+.section .container{width:1210px;margin:0 auto}
+.section .mod-title{padding-bottom:35px;text-align:center;color:#333}
+.section .mod-title h2{font-size:36px;margin-bottom:17px}
+.section .mode-list{ height: 484px; }
+.section .mode-list .mode-item{ width: 240px; height: 484px; text-align: center; float: left; overflow: hidden; margin-left: -1px; background: #fff; transition: width .4s;}
+.section .mode-list .mode-wrap{ width: 750px; height: 484px;}
+.section .mode-list .mode-view{ float: left; width: 238px; height: 482px; border: 1px solid #DCDCDC; opacity: 1;}
+.section .mode-list .mode-view h3{ font-size: 30px; padding-top: 52px; padding-bottom: 11px;}
+.section .mode-list .mode-view h4{ font-size: 14px; color: #888; }
+.section .mode-list .mode-view i{ display: block; width: 120px; height: 90px; margin: 80px auto 105px;}
+.section .mode-list .mode-view ul{ padding-left: 20px; }
+.section .mode-list .mode-view li{ float: left; width: 90px; height: 30px; line-height: 30px; margin: 0 5px 10px 5px; background: #EDEDED; }
+.section .mode-list .mode-detail{ float: left; color: #fff; width: 480px; height: 484px; background: #1f76ba; opacity: 0;}
+.section .mode-list .mode-detail .detail-left,
+.section .mode-list .mode-detail .detail-right{ width: 240px; height: 484px; }
+.section .mode-list .mode-detail .detail-left{ float: left; background: #1f76ba;; overflow: hidden;}
+.section .mode-list .mode-detail .detail-left i{ display: block; width: 120px; height: 90px; margin: 112px auto 70px; }
+.section .mode-list .mode-detail .detail-left h3{ font-size: 30px; margin-bottom: 19px;}
+.section .mode-list .mode-detail .detail-left h4{ font-size: 14px; padding: 0 25px; line-height: 1.7;}
+.section .mode-list .mode-detail .detail-right{ float: left; background: #1f76ba;}
+.section .mode-list .mode-detail .detail-right ul{ padding: 20px 20px 0 30px; }
+.section .mode-list .mode-detail .detail-right li{ margin-bottom: 16px; }
+.section .mode-list .mode-detail .detail-right li h3{ width: 83px; height: 28px; border: 1px solid #fff; line-height: 28px; margin-bottom: 11px;font-size: 16px;}
+.section .mode-list .mode-detail .detail-right li p{ text-align: left; line-height: 1.7; font-size: 14px;}
+.section .mode-list .mode-detail .detail-right .get{ width: 100px; height: 31px; line-height: 31px; padding-left: 15px; color: #1f76ba; display: block; margin-left: 30px; font-size: 16px; background: #fff url(../images/04-jt.png) no-repeat 84px center; text-align: left;}
+.section .mode-list .mode-item-1 .mode-view i{ background: url(../images/04-img-1.png) no-repeat -120px 0; }
+.section .mode-list .mode-item-1 .mode-detail .detail-left i{ background: url(../images/04-img-1.png) no-repeat 0 0; }
+.section .mode-list .mode-item-2 .mode-view i{ background: url(../images/04-img-2.png) no-repeat -120px 0; }
+.section .mode-list .mode-item-2 .mode-detail .detail-left i{ background: url(../images/04-img-2.png) no-repeat 0 0; }
+.section .mode-list .mode-item-3 .mode-view i{ background: url(../images/04-img-3.png) no-repeat -120px 0; }
+.section .mode-list .mode-item-3 .mode-detail .detail-left i{ background: url(../images/04-img-3.png) no-repeat 0 0; }
+.section .mode-list .mode-item-4 .mode-view i{ background: url(../images/04-img-4.png) no-repeat -120px 0; }
+.section .mode-list .mode-item-4 .mode-detail .detail-left i{ background: url(../images/04-img-4.png) no-repeat 0 0; }
+.section .mode-list .mode-item.active{ width: 480px; }
+.section .mode-list .mode-item.active .mode-wrap{ margin-left: -240px; opacity: 1; }
+.section .mode-list .mode-item.active .mode-view{ opacity: 0; }
+.section .mode-list .mode-item.active .mode-detail{ opacity: 1; }
